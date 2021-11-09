@@ -5,7 +5,12 @@ import MuiButton from "../../../StyledComponents/MuiButton";
 
 const Navigation = () => {
   return (
-    <MuiNavbar background="#FFF8F5" navItemPosition="right" logo={logo}>
+    <MuiNavbar
+      background="#FFF8F5"
+      navItemPosition="right"
+      togglerColor="black"
+      logo={logo}
+    >
       <NavItem to="/home" color="#2d3436">
         Home
       </NavItem>

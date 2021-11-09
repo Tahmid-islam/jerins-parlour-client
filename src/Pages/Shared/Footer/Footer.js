@@ -37,7 +37,7 @@ const Footer = () => {
   return (
     <footer className={footerStyle}>
       <Container>
-        <Grid container spacing={3} sx={{ mt: "10vh", color: "#fff" }}>
+        <Grid container spacing={3} sx={{ color: "#fff" }}>
           <Grid item xs={12} sm={12} md={6} lg={3}>
             <List
               sx={{
@@ -97,7 +97,7 @@ const Footer = () => {
             <IconButton className={socialIcon}>
               <InstagramIcon />
             </IconButton>
-            <Typography>Call Now</Typography>
+            <Typography variant="subtitle2">Call Now</Typography>
             <Button style={{ backgroundColor: "#ff80ab", color: "white" }}>
               +8065432145
             </Button>

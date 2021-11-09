@@ -14,7 +14,7 @@ const HomeBanner = () => {
               BEAUTY SALON <br />
               FOR EVERY WOMEN
             </Typography>
-            <Typography variant="body1" sx={{ textAlign: "justify" }}>
+            <Typography variant="subtitle1" sx={{ textAlign: "justify" }}>
               Jerin's has proudly been one of the pioneers of beauty related
               services in Bangladesh since it was first established in 1998 and
               has since come a long and joyful way. In these past 24 years,
